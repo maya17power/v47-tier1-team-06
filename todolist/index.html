@@ -33,24 +33,33 @@
         </section>
         <section class="create-todo">
           <h3>Create a to do</h3>
+
           <form id="new-todo-form">
             <h4>whats on your to list?</h4>
-            <input type="text" name="content" id="content" placeholder="hit the gym" />
+            <input type="text" 
+                   name="content" 
+                   id="content" 
+                   placeholder="hit the gym" />
+
             <h4>pick a catagory</h4>
             <div class="options">
+
               <label>
-                <input type="radio" name="category" id="category1" value="business" />
+                <input type="radio" 
+                       name="category" 
+                       id="category1" 
+                       value="business" />
+
                 <span class="bubble business"></span>
                 <div>business</div>
               </label>
-            </div>
 
-            <div class="options">
               <label>
-                <input type="radio" name="category" id="category2" value="business" />
+                <input type="radio" name="category" id="category2" value="personal" />
                 <span class="bubble personal"></span>
                 <div>personal</div>
               </label>
+              
             </div>
             <input type="submit" value="add todo" />
           </form>
