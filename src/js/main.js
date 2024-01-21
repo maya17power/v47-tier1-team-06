@@ -250,15 +250,5 @@ try{
 	tasksClass.innerHTML = categoryNames;
 	//render the element on the page
 	//genElement(tasksClass);
-	
-	
-	// function generateTaskElement(){
-	// 	console.log('inside generateTaksElement function');
-	// }
-	
-	
-
-}catch(error){
-	console.log(error)
-};
 */
+
