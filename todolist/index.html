@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Todo List</title>
+
+    <!--JQUERY LIBRARY -->
+    <!-- <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+
+    <!-- FONTAWSOME -->
+    <!-- <script defer src="https://kit.fontawesome.com/df21ef76d6.js" crossorigin="anonymous"></script> -->
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script defer src="main.js"></script>
+
+  </head>
+  <body>
+    <main class="app">
+        <section class="greeting">
+          <h2 class="title">
+            Greetings, <input type="text" id="name" placeholder="User name">
+          </h2>
+        </section>
+        <section class="create-todo">
+          <h3>Create a to do</h3>
+          <form id="new-todo-form">
+            <h4>whats on your to list?</h4>
+            <input type="text" name="content" id="content" placeholder="hit the gym" />
+            <h4>pick a catagory</h4>
+            <div class="options">
+              <label>
+                <input type="radio" name="category" id="category1" value="business" />
+                <span class="bubble business"></span>
+                <div>business</div>
+              </label>
+            </div>
+
+            <div class="options">
+              <label>
+                <input type="radio" name="category" id="category2" value="business" />
+                <span class="bubble personal"></span>
+                <div>personal</div>
+              </label>
+            </div>
+            <input type="submit" value="add todo" />
+          </form>
+        </section>
+
+
+        <section class="todo-list">
+          <h3>todo list</h3>
+          <div class="list" id="todo-list">
+            <div class="todo-item">
+              <label>
+                <input type="checkbox" />
+                <span class="bubble business"></span>
+              </label>
+              <div class="todo-content">
+                <input type="text" value="hit the gym" readonly />
+              </div>
+              <div class="actions">
+                <button class="edit">edit</button>
+                <button class="delete">delete</button>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+  </body>
+</html>
+
