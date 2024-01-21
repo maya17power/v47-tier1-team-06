@@ -187,10 +187,9 @@ function addTask() {
 }
 
 function form(){
+  const [date, time] = new Date().toLocaleString().split(',');
   const name = document.getElementById("tname").value;
   const note = document.getElementById("tnote").value;
-  const date = "01/19/2024";
-  const time = "10:18PM";
   addElement(name, note, date, time);
 };
 
