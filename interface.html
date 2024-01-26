@@ -20,6 +20,8 @@
     <link rel="stylesheet" type="text/css" href="interface.css" />
 
     <script defer src="interface.js"></script>
+    <script defer src="App.js"></script>
+    
   </head>
   <body>
     <main class="app">
@@ -37,12 +39,47 @@
                 <h1>January 2024</h1>
             </div>
             <div class="addtask">
-                <button class="addButton">+ add task</button>
+                <button class="addButton" onclick="addNewTask()">+ add task</button>
             </div>
         </section>
 
         <section class="calender_menu">
-            <p>calender area</p>
+            
+            <div class="calendar-container">
+                <div class="calendar-day" onclick="showTaskDetails('Work out', '23 January')">
+                    <p class="task-date">23rd Tue</p>
+                    <ul class="task-list">
+                        <li class="task-item">
+                            <span class="task-name">Show</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="calendar-day" onclick="showTaskDetails('Stress Out', '24 January')">
+                    <p class="task-date">24rd Tue</p>
+                    <ul class="task-list">
+                        <li class="task-item">
+                            <span class="task-name">Show</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="calendar-day" onclick="showTaskDetails('Smoke Out', '25 January')">
+                    <p class="task-date">25rd Tue</p>
+                    <ul class="task-list">
+                        <li class="task-item">
+                            <span class="task-name">Show</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="calendar-day" onclick="showTaskDetails('Calm Down', '26 January')">
+                    <p class="task-date">26rd Tue</p>
+                    <ul class="task-list">
+                        <li class="task-item">
+                            <span class="task-name">Show</span>
+                        </li>
+                    </ul>
+                </div>
+            
+            </div>
         </section>
 
         <section class="task_list">
