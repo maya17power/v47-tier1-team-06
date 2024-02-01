@@ -1,0 +1,14 @@
+:root {
+    --primary: #f15454;
+    --lightPink: #f4afaf;
+  }  
+
+.task_button_container{
+    display: flex;
+    margin: auto;
+}
+
+#add_task_button{
+    background-color: var(--primary);
+    color: #FFF
+}

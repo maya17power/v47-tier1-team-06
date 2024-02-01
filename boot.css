@@ -15,7 +15,7 @@
 }
 
 #top_month_addTask{
-    align-items: center;
+  display: inline-flexbox;
 }
 
 #monthYear {
