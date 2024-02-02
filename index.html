@@ -40,54 +40,6 @@
 
     <main class="app" style="position: relative">
         
-        <div class="popupBody container-fluid mt-3 text-left" id="popup">
-            <div class="row top_menu text-center" id="top_menu">
-                <div class="col p-3 text-white" id="today_month_year">
-                    <i class="fa-solid fa-arrow-left fa-xl"></i>
-                </div>
-                <div class="col p-3 text-white" id="monthYear">
-                    Create New Task
-                </div>
-                <div class="col p-3 text-white" id="addTaskButton">
-                    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
-                </div>
-            </div>
-    
-            <form>
-                <div class="mb-3">
-                  <label for="task_title_input" class="form-label text-white">Task Title</label>
-                  <input type="text" class="form-control" id="task_title_input" aria-describedby="TaskTitle">
-                </div>
-                <div class="mb-3">
-                  <label for="task_description_input" class="form-label text-white">Description</label>
-                  <input type="text" class="form-control" id="task_description_input">
-                </div>
-                <div class="mb-3">
-                  <label for="datePicker" class="form-label text-white">Date</label>
-                  <input type="date" class="form-control" id="datePicker" onchange="datePicked(this)">
-                </div>
-    
-                <div class="row mb-3">
-                    <div class="col-sm-6 p-3 text-black">
-                        <label for="task_start_time" class="form-label text-white">Start Time</label>
-                        <input type="time" class="form-control" id="task_start_time">
-                    </div>
-                    <div class="col-sm-6 p-3 text-black">
-                        <label for="task_end_time" class="form-label text-white">End Time</label>
-                        <input type="time" class="form-control" id="task_end_time">
-                    </div>
-                </div>
-    
-                <div class="row" class="task_button_container" id="task_button_container">
-                    <div class="col-sm-12 task_button_container" id="task_add_cancel_group">
-                        <button type="submit" class="save btn btn-white btn-lg task_button_container" id="add_task_button">Add Task</button>
-                        <button type="cancel" class="cancel_btn btn btn-white btn-lg task_button_container" id="cancel_task_button">Cancel</button>
-                    </div>
-                </div>
-            </form>
-        </div> 
-
-
         <!-- <section class="topOption_menu">
             <div class="backArrow">
                 <i class="fa-solid fa-arrow-left fa-xl"></i>

@@ -1,18 +1,24 @@
+/*///////////////// POPUP CSS ////////////////////////*/
 :root {
     --primary: #f15454;
     --lightPink: #f4afaf;
-  }  
+}  
+
 body{
     background-color:var(--primary);
 }
-.task_button_container{
+
+.task_button_container {
     display: flex;
     margin: auto;
 }
-#cancel_task_button{
+
+.task_button_container button {
     color: #FFF;
 }
-#add_task_button{
-    background-color: var(--primary);
-    color: #FFF
+
+.task_button_container button:hover {
+    background-color: #f4afaf;
 }
+
+/*///////////////END// POPUP CSS ////////////////////////*/
