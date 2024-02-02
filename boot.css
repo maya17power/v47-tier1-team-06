@@ -14,6 +14,10 @@
     visibility: hidden;
 }
 
+#popupBody{
+  visibility: hidden;
+}
+
 #top_month_addTask{
   display: inline-flexbox;
 }
@@ -24,14 +28,6 @@
 
 #addTaskButton {
   text-align: center;
-}
-
-#middle_taskList {
-  /* margin-bottom: 100%;
-    justify-content: center; */
-}
-
-#task_icon_list {
 }
 
 #task_details_items {

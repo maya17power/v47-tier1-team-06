@@ -31,8 +31,8 @@ textarea {
 }
 
 body {
-  background: var(--background);
-  color: var(--dark);
+  /* background: var(--background);
+  color: var(--dark); */
 }
 
 section {
@@ -207,12 +207,8 @@ i {
   /* padding-bottom: 1rem; */
 }
 
-#popup input {
-  background-color: white;
-  margin-left: 1rem;
-  margin-top: 1rem;
-  height: 2rem;
-  font-size: large;
+#popup{
+  /* visibility: hidden; */
 }
 
 ul {
@@ -275,3 +271,60 @@ ul {
 }
 
 
+/*//////////////////////////// bootstrap //////////////////////////////*/
+
+#popupBody{
+  /* visibility: hidden; */
+}
+
+#top_menu {
+  visibility: hidden;
+}
+
+#top_month_addTask{
+display: inline-flexbox;
+}
+
+#monthYear {
+text-align: center;
+}
+
+#addTaskButton {
+text-align: center;
+}
+
+#middle_taskList {
+/* margin-bottom: 100%;
+  justify-content: center; */
+}
+
+#task_icon_list {
+}
+
+#task_details_items {
+font-size: x-small;
+margin: 0 auto;
+}
+
+#thumbtackIcon {
+color: var(--primary);
+align-items: center;
+justify-content: center;
+padding-top: 60px;
+}
+
+#bottom_menu {
+  visibility: hidden;
+}
+
+.task_button_container{
+  display: flex;
+  margin: auto;
+}
+#cancel_task_button{
+  color: #FFF;
+}
+#add_task_button{
+  background-color: var(--primary);
+  color: #FFF
+}
