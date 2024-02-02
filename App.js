@@ -126,7 +126,7 @@ function updateCurrentMonthDisplay() {
  
 
 // popup cancel btn
-    document.querySelector(".delete_btn").addEventListener("click", function() {
+    document.querySelector(".cancel_btn").addEventListener("click", function() {
         document.getElementById("title").value = "";
         document.getElementById("description").value = "";
         document.getElementById("datePicker").value = "";

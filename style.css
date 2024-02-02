@@ -258,46 +258,20 @@ ul {
   /* overflow-x: hidden; */
   /* flex-wrap:wrap; */
 }
-
-/* .taskText{
+ 
+.popupBody{
+  background-color:var(--primary);
+}
+.task_button_container{
   display: flex;
-  white-space: nowrap;
-  align-items: left;
-  justify-content: left;
-} */
-
-/* .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-} */
-
-/* .bottomOption_menu {
-  display: flex;
-  height: 100%;
-} */
-
-/* .bottomOption_menu i {
-  color: var(--grey);
+  margin: auto;
 }
-
-.bottomOption_menu i:hover {
-  opacity: 0.75;
-  color: var(--hover);
+#cancel_task_button{
+  color: #FFF;
 }
-
-.alerts {
-  margin-right: auto;
+#add_task_button{
+  background-color: var(--primary);
+  color: #FFF
 }
-
-.calendar {
-  margin-right: auto;
-}
-
-.home {
-  margin-right: auto;
-} */
-
 
 
