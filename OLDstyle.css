@@ -1,0 +1,167 @@
+#popupBody{
+  /* visibility: hidden; */
+}
+
+.footer{
+  display: none;
+}
+
+.task{
+  display: flex;
+  max-width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-item i {
+  padding: 1rem;
+  margin-right: 0.50rem;
+  align-self: center;
+  background-color: var(--primary);
+  border-radius: 50%;
+  color: #fff;
+}
+
+/* reset */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat", sans-serif;
+} */
+
+/* section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+} */
+
+/* h3 {
+  color: var(--dark);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+} */
+
+/* h4 {
+  color: var(--grey);
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+} */
+
+/* i {
+  cursor: pointer;
+} */
+
+.topOption_menu {
+  display: flex;
+}
+
+/* Hide main top option menu */
+#main_topOption_menu{
+  display: none;
+}
+
+.backArrow {
+  margin-right: auto;
+}
+
+.addTask_menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.addtask .addButton {
+  height: 4rem;
+  width: 7rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: var(--primary);
+}
+
+
+/*//////////////////////////////////////////
+////// PEACHES CODE
+//////////////////////////////////////////*/
+
+.addButton {
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+}
+
+.calendar-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 1px;
+}
+
+.calender_menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.calendar-day {
+  border: 1px solid #ddd;
+  background-color: #FFF;
+  box-shadow: 0 0 10px #F4AFAF;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.75;
+  color: var(--primary);
+}
+
+.task-container {
+  max-width: 200px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px #f4afaf;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.task-date {
+  font-size: 16px;
+  font-weight: bold;
+  color: #bcbcbc;
+}
+
+.task-scroll {
+  list-style: none;
+  padding: 0;
+}
+
+.calendar-day:hover {
+  background-color: #f15454; /* Change color on hover */
+}
+
+.task-item {
+  cursor: pointer;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-name {
+  flex-grow: 1;
+}
+
+/* ///////////////////END PEACH CODE///////////////*/

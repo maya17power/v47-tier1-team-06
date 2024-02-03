@@ -4,8 +4,11 @@
     --lightPink: #f4afaf;
 }  
 
-body{
+/* dont display the popup on load */
+#popup_main_container{
+    display: none;
     background-color:var(--primary);
+    
 }
 
 .task_button_container {
