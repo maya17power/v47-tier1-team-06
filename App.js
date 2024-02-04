@@ -86,6 +86,7 @@ function datePicked(input) {
     selectedDate.getDate()
   );
 }
+
 function updateCurrentMonthDisplay() {
   const currentMonthYear = document.getElementById("currentMonthYear");
   currentMonthYear.textContent = baseDate.toLocaleString("default", {
